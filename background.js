@@ -1,0 +1,1 @@
+$( "div.UnauthBanner.Module" ).remove();

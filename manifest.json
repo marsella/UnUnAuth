@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+
+    "name": "Un-UnAuth Pinterest",
+    "description": "Get rid of that overlay on Pinterest",
+    "version": "1.0",
+
+    "background" : {
+      "scripts": [ "jquery-2.1.1.min.js", "background.js" ],
+      "persistent": false
+    },
+
+    "permissions" : [
+      "http://www.pinterest.com/*" ]
+}
+
